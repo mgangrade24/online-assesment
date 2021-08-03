@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(#8655ac, #332042);
+}
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+.submit:hover{
+    text-decoration: none;
+    background: #774b99;
+    color: white;
+}

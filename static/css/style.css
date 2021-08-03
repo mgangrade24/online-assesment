@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+	width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#8655ac, #332042);
+}
+.main_box {
+    width: 1050px;
+    height: 85%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+}
+.main_box .left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 41%;
+    height: 100%;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_box .right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 59%;
+    height: 100%  
+}
+.left .instruction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.left h3{
+    text-align: center;
+    margin-top: 20px;
+  }
+.left .instruction ol li {
+    margin-top: 1em;
+}
+.left{
+	background: linear-gradient(-45deg, #dcd7e0, #fff);
+}
+.submit {
+    border: none;
+    padding: 15px 70px;
+    border-radius: 8px;
+    background: #583672;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
+.submit:hover{
+    text-decoration: none;
+    background: #774b99;
+    color: white;
+}
+.right {
+	background: linear-gradient(212.38deg, rgba(242, 57, 127, 0.7) 0%, rgba(175, 70, 189, 0.71) 100%),url(https://static.seattletimes.com/wp-content/uploads/2019/01/web-typing-ergonomics-1020x680.jpg);
+    background-size: cover;
+	color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-text h2{
+    text-align: center;
+    font-size: 50px;
+  font-weight: 500;
+}
+.right-text h5{
+    text-align: center;
+    font-size: 19px;
+  font-weight: 400;
+}
+.right .right-img{
+    background: #fff0;
+}
+
+/* end page */
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end a{
+    text-decoration: none;
+    color: #583672;
+}
+.end a:hover{
+    color: #583672;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 70px;
+}
+
+
+/* media query */
+@media screen and (max-width: 768px) {
+    .main_box{
+        flex-direction: column-reverse;
+    }
+    .main_box .left{
+        width: 100%;
+    }
+    .main_box .right{
+        width: 100%;
+    }
+}
