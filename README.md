@@ -1,10 +1,16 @@
 
 
-https://user-images.githubusercontent.com/57436780/128076345-bf57eb6c-9843-4b77-a9d6-2d2430b87b53.mp4
+https://user-images.githubusercontent.com/57436780/128131046-c9a60b1d-9fde-467a-996b-82992693837e.mp4
 
 # online-assesment
 This is an online assesment platform made by Mousam, Nirmal and Abhishek.
 The web application is made over the python's flask framework as backend, uses Jinja2 as the templating engine and for frontend we have used HTML/CSS/JS and Bootstrap4.
+
+Frontend part is done by Nirmal.
+Backend part in flask is done by Mousam.
+And, javascript functionallity and the file handling is done by Abhishek.
+
+A deployed version can be checked here: https://online-assessment-final.herokuapp.com/
 
 
 ## We worked for the following specifications:
